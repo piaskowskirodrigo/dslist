@@ -20,3 +20,4 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 				""")
 	List<GameMinProjection> searchByList(Long listId);
 }
+
